@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ex3</string>
+    <string name="return_home">Return to home</string>
+
+    <string name="Main_current_activity">Current Activity</string>
+    <string name="Main_activitylistener">Using Activity as Listener</string>
+    <string name="Main_bindtolabel">Bind label as listener</string>
+    <string name="Main_innerclass">Inner class as listener</string>
+    <string name="Main_anoninner">Anon Inner class as listener</string>
+
+    <string name="button_activity">Use Activity as Listener</string>
+    <string name="button_innerclass">Use Inner class as listener</string>
+    <string name="button_anoninner">Use Anon Inner class as listener</string>
+    <string name="button_outerclass">Use Outer class as listener</string>
+    <string name="button_bindtolabel">Bind to label</string>
+    <string name="button_sysinfo">Get system info</string>
+    <string name="button_progressbar">Try progress bar</string>
+    <string name="config_currentori">Current orientation</string>
+    <string name="config_devori">Orientation Device</string>
+    <string name="config_scrprop">Touch screen properties</string>
+    <string name="config_mnc">MNC Code</string>
+    <string name="conf_button_sys">Get system info</string>
+    <string name="prog_circle">Circle Loader</string>
+    <string name="prog_nobar">Bar without Percentage</string>
+    <string name="prog_showbar">Bar with Percentage</string>
+</resources>

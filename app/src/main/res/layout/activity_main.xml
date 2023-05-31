@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MainActivity_Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Main_current_activity"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/Main_Linear"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/Button_ActivityListener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_activity" />
+
+        <Button
+            android:id="@+id/Button_InnerClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_innerclass" />
+
+        <Button
+            android:id="@+id/Button_AnonInnerClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_anoninner" />
+
+        <Button
+            android:id="@+id/Button_OuterClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickHandler"
+            android:text="@string/button_outerclass" />
+
+        <Button
+            android:id="@+id/Button_BindToLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_bindtolabel"
+            android:onClick="clickHandler" />
+
+        <Button
+            android:id="@+id/Button_SysInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_sysinfo" />
+
+        <Button
+            android:id="@+id/Button_ProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_progressbar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
